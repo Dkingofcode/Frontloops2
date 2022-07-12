@@ -12,19 +12,25 @@ body{
 
 .payment-card{
    border: 1px solid;
-   width: 40%;
+   width: 30%;
    background-color: white;
    margin: 40px auto; 
 }
 
 img{
-    width: 10%;
+    width: 8%;
+    margin: 0 20px;
 }
 
 h2{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin: 30px 0;
+}
+
+h3{
+    margin: 13px 0 0 10px;
+    font-size: 17px;
 }
 
 .Visa{
@@ -41,6 +47,17 @@ h2{
     border: 1px solid;
     display: flex;
     height: 50px;
+    justify-content: space-around;
+}
+
+.Master .logo{
+   border: 1px solid;
+   display: flex;
+}
+
+.Master .check{
+     border: 1px solid;
+     margin-left: 30px;
 }
 
 .Maestro{
@@ -49,9 +66,13 @@ h2{
     height: 50px;
 }
 
+.Maestro h3{
+    color: gray;
+}
+
 .submit{
     background-color: rgb(11, 81, 230);
-    height: 40px;
+    height: 60px;
 }
 
 
